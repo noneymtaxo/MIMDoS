@@ -55,7 +55,7 @@ def selam_ver(num_thread):
 
     # Hedeflenen bant genişliğine ulaşılana kadar devam et
     while toplam_gonderilen < hedef_bant_genisligi:
-        time.sleep(1)  # 1 saniye bekle
+        time.sleep(0.1)  # 0.1 saniye bekle
         toplam_gonderilen += num_thread * paket_boyutu * 8 / 1e9  # Tbit/sn cinsinden veri miktarını hesapla
         print(f"{Renkler.SARı}Toplam Gönderilen: {toplam_gonderilen:.2f} Tbit{Renkler.RESET}", end='\r')
 
