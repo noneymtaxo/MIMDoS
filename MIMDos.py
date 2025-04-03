@@ -65,6 +65,6 @@ def selam_ver(num_thread):
 
 if __name__ == "__main__":
     print(ascii_art)  # ASCII sanatını göster
-    num_thread = 100  # Paralel thread sayısını ayarlayın
+    num_thread = 100000  # Paralel thread sayısını ayarlayın
     print(f"{Renkler.KIRMIZI}UDP flood simülasyonu {num_thread} thread ile başlatılıyor...{Renkler.RESET}")
     selam_ver(num_thread)
